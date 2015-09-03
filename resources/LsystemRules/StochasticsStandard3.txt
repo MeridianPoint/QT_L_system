@@ -1,0 +1,10 @@
+#axiom:X
+#angle:25.7
+#iteration:6
+#rule:X(0.2)->F[+X][-Y][/Y][&X]FX
+#rule:X(0.4)->F[+X][-Y]
+#rule:X(0.4)->F[/X][&X]FX
+#rule:F(0.3)->F
+#rule:F(0.7)->FFX
+#rule:Y(0.3)->FF+F[+F][/F]
+#rule:Y(0.3)->-F[&F][-F]

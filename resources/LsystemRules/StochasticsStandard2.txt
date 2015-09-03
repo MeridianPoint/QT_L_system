@@ -1,0 +1,9 @@
+#axiom:X
+#angle:16.7
+#iteration:6
+#rule:X(0.2)->F-[[X]+X]+F[+FX]-X
+#rule:X(0.2)->F&[[X]/X]/F[/FX]-X
+#rule:X(0.4)->F[+X]F[-X]+X
+#rule:X(0.2)->F[/X]F[/X]&X
+#rule:F(0.3)->F
+#rule:F(0.7)->FF
